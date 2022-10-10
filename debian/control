@@ -1,0 +1,17 @@
+Source: libio-dirent-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 5.0.0), perl (>= 5.8.8-7etch1)
+Maintainer: Ludovic Drolez <ldrolez@debian.org>
+Standards-Version: 3.9.3
+
+Package: libio-dirent-perl
+Architecture: any
+Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}, 
+Enhances: backuppc
+Description: Perl module for accessing dirent structs returned by readdir
+ Returns a list of hashrefs. Each hashref contains the name of the
+ directory entry, its inode for the filesystem it resides on and its
+ type (if available). 
+ .
+ This module can be used by backuppc to speed up back-ups.

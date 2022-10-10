@@ -1,0 +1,16 @@
+This is the debian package for the IO-Dirent module.
+It was created by Ludovic Drolez <ldrolez@debian.org> using dh-make-perl.
+
+It was downloaded from http://search.cpan.org/~scottw/IO-Dirent-0.04/
+
+The upstream author is: Scott Wiersdorf, <scott@perlcode.org>
+
+Copyright:
+
+  Copyright 2002 Scott Wiersdorf.
+
+  This library is free software; you can redistribute it and/or modify
+  it under the terms of the Perl Artistic License.
+  
+On Debian GNU/Linux systems, the complete text of the Artistic
+License can be found in `/usr/share/common-licenses/Artistic'.

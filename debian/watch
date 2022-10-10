@@ -1,0 +1,4 @@
+version=3
+# URL to the package page followed by a regex to search
+http://search.cpan.org/dist/IO-Dirent/   .*/IO-Dirent-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$	debian	uupdate
+
