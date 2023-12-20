@@ -1,3 +1,15 @@
+libio-dirent-perl (0.05-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix "Removal of obsolete debhelper compat 5 and 6 in bookworm":
+    Bump to 7 in debian/{compat,control}.
+    (Closes: #965647)
+  * Fix "missing required debian/rules targets build-arch and/or build-
+    indep": Add missing targets.
+    (Closes: #999278)
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 26 Dec 2021 23:36:39 +0100
+
 libio-dirent-perl (0.05-1) unstable; urgency=low
 
   * New upstream release
