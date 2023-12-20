@@ -28,7 +28,9 @@ else
         CFLAGS += -O2
 endif
 
-build: build-stamp
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
 build-stamp:
 	dh_testdir
 
@@ -94,4 +96,4 @@ source diff:
 	@echo >&2 'source and diff are obsolete - use dpkg-source -b'; false
 
 binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary
+.PHONY: build-indep build-arch build clean binary-indep binary-arch binary

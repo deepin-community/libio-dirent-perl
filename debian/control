@@ -1,7 +1,7 @@
 Source: libio-dirent-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 5.0.0), perl (>= 5.8.8-7etch1)
+Build-Depends: debhelper (>= 7.0.0), perl (>= 5.8.8-7etch1)
 Maintainer: Ludovic Drolez <ldrolez@debian.org>
 Standards-Version: 3.9.3
 
